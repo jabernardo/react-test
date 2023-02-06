@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve --port 80",
+    "start": "npx serve -p 3000 dist/",
     "build": "webpack",
     "test": "test"
   },
